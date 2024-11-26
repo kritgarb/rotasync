@@ -1,8 +1,8 @@
 package fluxotransito.modelos;
 
 public class Moto extends Veiculo {
-    public Moto(String placa, String modelo) {
-        super(placa, modelo);
+    public Moto(String placa, String modelo, String marca, String cor) {
+        super(placa, modelo, marca, cor);
     }
 
     @Override
