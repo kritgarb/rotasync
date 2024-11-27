@@ -1,12 +1,97 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Rotasync</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ROTASYNC</title>
+  <link rel="stylesheet" href="./src/styles/style.css">
 </head>
 <body>
-    <script src="src/scripts/script.js"></script>
+  <header>
+    <div class="logo">
+      <img src="./src/img/LOGO.png" alt="Logo ROTASYNC">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#noticias">Notícias</a></li>
+        <li><a href="#ocorrencias">Ocorrências</a></li>
+        <li><a href="#fluxo">Verificar Fluxo</a></li>
+      </ul>
+      <button class="menu-mobile">
+        <img src="./src/img/icons/menu-mobile.svg" alt="Menu">
+      </button>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="banner">
+      <img src="./src/img/home/image 2.png" alt="Pesquisa sobre infraestrutura rodoviária">
+      <div class="banner-text">
+        <h3>SEGURANÇA</h3>
+        <h1>Pesquisa CNT de Rodovias 2024 aponta...</h1>
+      </div>
+    </div>
+    <div class="noticias">
+      <h2>Notícias</h2>
+      <ul>
+        <li>
+            <span>1.</span>
+          <img src="./src/img/home/semaforos.png" alt="Notícia 1">
+          <span>Semáforos inteligentes podem...</span>
+        </li>
+        <li>
+            <span>2.</span>
+          <img src="./src/img/home/motoristas.png" alt="Notícia 2">
+          <span>PL determina o uso de bafômetros...</span>
+        </li>
+        <li>
+            <span>3.</span>
+          <img src="./src/img/home/pl.png" alt="Notícia 3">
+          <span>Maioria dos motoristas diz que motos...</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="ocorrencias">
+    <h2>Ocorrências</h2>
+    <div class="ocorrencias-grid">
+      <div class="ocorrencia">
+        <img src="./src/img/PG01/image 9.png" alt="Mapa Ocorrência">
+        <p><strong>Severidade:</strong> ★★★★</p>
+        <p><strong>Data:</strong> 11/11/2024</p>
+        <p><strong>Descrição:</strong> Um carro perdeu o controle...</p>
+      </div>
+      <div class="ocorrencia">
+        <img src="./src/img/PG01/image 10.png" alt="Mapa Ocorrência">
+        <p><strong>Severidade:</strong> ★★★☆☆</p>
+        <p><strong>Data:</strong> 21/11/2024</p>
+        <p><strong>Descrição:</strong> Um dos carros perdeu o controle...</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="fluxo">
+    <h2>Verificar Fluxo</h2>
+    <div class="busca">
+      <input type="text" placeholder="Digite o logradouro">
+      <button>
+        <img src="./src/img/icons/lupa.svg" alt="Ícone de lupa">
+      </button>
+    </div>
+    <div class="mapa">
+      <img src="./src/img/PG02/image.png" alt="Mapa">
+      <p><strong>Horário de pico:</strong> 12h-13h</p>
+      <p><strong>Status:</strong> Mediano</p>
+      <p><strong>Sinalização:</strong> Buraco reportado</p>
+      <button>Adicionar Sinalização</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>Copyright © 2024 - Designed by Diogo / Benjamin</p>
+  </footer>
+
+  <script src="./src/scripts/script.js"></script>
 </body>
 </html>
